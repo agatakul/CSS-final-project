@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="4_24_art_gallery.css" rel="stylesheet" />
+		<title></title>
+	</head>
+	<body>
+		<header>
+			<div id="gallery-header">
+				<h1 id="gallery-header">Museum of History and Art</h1>
+				<nav>
+					<ul>
+						<li><a href="#about">About</a></li>
+						<li><a href="#opening-hours">Opening hours</a></li>
+						<li><a href="#our-exhibits">Our exhibits</a></li>
+						<li><a href="#contact-section">Contact</a></li>
+					</ul>
+				</nav>
+
+			</div>	
+		</header>
+
+	
+		<hr>
+		<main>
+			<section id="about">
+				
+				<h2>About</h2>
+				<p>Explore the natural world, and the known universe. For over 15 years, we have provided an impactful, results-focused experience to all of our visitors! </p>
+				<img id="museum" src="https://media.timeout.com/images/100616765/1920/1080/image.jpg" alt="entrance" />
+			</section>
+			
+			<section id="opening-hours">
+				<h2>Opening hours</h2>
+				<p>Open daily:</p>
+				<ul>
+					<li>Monday-Friday, 10 am- 5:30 pm</li>
+					<li> Weekends and holidays, 10 am-9:30 pm </li>
+				</ul>
+			</section>
+			
+			<section id="our-exhibits">
+				<h2>Our exhibits</h2>
+				<div class="our-exhibits">
+					<p>Explore the breadth, depth, and splendor of the world's most extensive natural history and art collection. View some of the most intriguing, beautiful, and awe-inspiring objects in our collection.</p>
+					<a><img src="https://github.com/codedex-io/css-101/blob/main/4-layout/25-art-gallery/images/dippy-the-dinosaur.png?raw=true" alt="dinosaur" class= "gallery-item" id="item-1"></a>
+					<a><img src="https://github.com/codedex-io/css-101/blob/main/4-layout/25-art-gallery/images/ghibli-museum.png?raw=true" alt="ghibli museum" class= "gallery-item" id="item-2"></a>
+					<a><img src="https://github.com/codedex-io/css-101/blob/main/4-layout/25-art-gallery/images/greek-sculpture.png?raw=true" alt="Greek sculpture" class= "gallery-item" id="item-3"></a>
+					<a><img src="https://github.com/codedex-io/css-101/blob/main/4-layout/25-art-gallery/images/morning-at-montrose.png?raw=true" alt="Morning at Montrose" class= "gallery-item" id="item-4"></a>
+				</div>
+			</section>
+			
+			<section id="notification">
+				<p></p>
+			</section>
+			<div id="notification-div">
+				<details>
+					<summary><strong>Timed-entry ticket reservations continue to be required for Museum entry.</strong></summary>
+					<p>Contact us <a href="#contact-section">here</a>!
+					</p>
+				</details>
+			</div>
+			
+			
+			
+			<footer id="contact-section">
+				<h2>Contact</h2>
+				<p>How Will You Arrange Your Visit? Give us your <b>email</b> and choose the <b>time</b> of your visit:</p>
+				<form> 
+					<input type="email" placeholder="e-mail here" required /><br>
+					<br>Monday-Friday <br>
+					<input type="radio" name="option" /> 10-13
+					<input type="radio" name="option" /> 12-15
+					<input type="radio" name="option" /> 14-17.30
+					<p><br>Saturday-Sunday</p>
+					<input type="radio" name="option" /> 10-13
+					<input type="radio" name="option" /> 12-15
+					<input type="radio" name="option" /> 14-17
+					<input type="radio" name="option" /> 16-19
+					<input type="radio" name="option" /> 18-21
+					<input type="radio" name="option" /> 19-21.30
+					<br><br><input type="submit" value="Submit" />
+				</form>
+			</footer>	
+		</main>
+	</body>
+</html>

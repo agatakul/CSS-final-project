@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+
+hr {
+  border: 2px solid;
+}
+
+#gallery-header {
+  padding-bottom: 6px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#gallery-header > h1 {
+  margin-left: 0;
+}
+
+#gallery-header > p {
+  color: #5E96FF;
+  font-weight: 800;
+}
+
+
+#about, #our-exhibits, #opening-hours, #contact-section{
+  text-align: center;
+}
+
+.gallery-item{
+  border: solid 1px;
+  border-radius: 0 7px 7px 0;
+  width: 10em;
+  height: 10em;
+}
+
+nav > ul {
+  margin: 5px 0;
+}
+
+nav li {
+  background-color: #D4E6DE;
+  padding: 7px;
+  margin: 1em atuo;
+  width: 21%;
+  border: 2px solid;
+  border-radius: 5px;
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+
+p{
+  text-align: left;
+}
+
+
+
+header {
+  background-color: #16422E;
+  color: #fff;
+  border-bottom: 2px solid #313131;
+  position: sticky;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+section > h2 {
+  border-bottom: 0.5px solid gray;
+  position: sticky;
+  top: 103px;
+  background-color: #8EC482;
+}
+
+footer > h2 {
+  border-bottom: 0.5px solid gray;
+  position: sticky;
+  top: 103px;
+  background-color: #8EC482;
+}
+
+#museum {
+  border: solid 1px;
+  border-radius: 0 7px 7px 0;
+  width: 15em;
+  height: 15em;
+}
+
+#opening-hours > ul>li {
+  text-align: left;
+}
+
+#notification-div {
+  background-color: #EC9B9A;
+  color: #313131;
+  padding: 5px;
+  border: 2px solid darkred;
+  border-radius: 5px;
+  width: 98%;
+  position: fixed;
+  top: 100px;
+  left: 15px;
+  z-index: 1;
+}
+
+form {
+  text-align: left;
+}
